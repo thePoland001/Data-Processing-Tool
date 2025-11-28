@@ -5,10 +5,14 @@ A Python-based data processing pipeline designed as a demonstration for MDA. Fea
 
 
 
-📂 Repository Structure
+**Repository Structure**
 - pipeline.py: The core logic engine that orchestrates the flow of data from input to final output.
 - ingest.py: Handles data loading and preprocessing, preparing raw information for the pipeline.
 - system_prompt.md: Contains the system-level instructions for the LLM.
 - requirements.txt: Lists necessary Python dependencies for reproduction.
 
-
+**Workflow**
+- Upon running the program, .eml file is manually placed in folder on desktop labed CY 25
+- Folder is scanned every 5 seconds
+- An exel file is automatically created and filled out with information in the .eml file according to the structure laid out in requirements documentation
+- If information cannot be parsed, it will be sent to a rejects folder that is created on the desktop. 
