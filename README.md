@@ -13,28 +13,4 @@ system_prompt.md: Contains the system-level instructions for the AI model, defin
 
 requirements.txt: Lists necessary Python dependencies for reproduction.
 
-🚀 Getting Started
-Clone the repository:
 
-Bash
-
-'''bash
-git clone https://github.com/thePoland001/Data-Processing-Tool.git
-cd Data-Processing-Tool
-Install dependencies:
-'''
-
-Bash
-
-pip install -r requirements.txt
-Run the pipeline:
-
-Bash
-
-python pipeline.py
-🛠 Technologies
-Python 3.x
-
-LLM Integration (Prompt Engineering via system_prompt.md)
-
-Data Ingestion Modules
