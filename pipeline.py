@@ -71,7 +71,7 @@ OPERATION_VALUES = [
 ]
 
 # api key (sample fallback)
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AIzaSyCrAIuCpLeYT3gBC9494GVb95ErXIg0NtQ"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-1.5-flash")
 
 genai.configure(api_key=GEMINI_API_KEY)
