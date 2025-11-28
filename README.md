@@ -18,9 +18,11 @@ Clone the repository:
 
 Bash
 
+'''bash
 git clone https://github.com/thePoland001/Data-Processing-Tool.git
 cd Data-Processing-Tool
 Install dependencies:
+'''
 
 Bash
 
