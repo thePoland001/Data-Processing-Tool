@@ -8,7 +8,7 @@ A Python-based data processing pipeline designed as a demonstration for MDA. Fea
 📂 Repository Structure
 - pipeline.py: The core logic engine that orchestrates the flow of data from input to final output.
 - ingest.py: Handles data loading and preprocessing, preparing raw information for the pipeline.
-- system_prompt.md: Contains the system-level instructions for the AI model, defining the persona and operational constraints of the tool.
+- system_prompt.md: Contains the system-level instructions for the LLM.
 - requirements.txt: Lists necessary Python dependencies for reproduction.
 
 
